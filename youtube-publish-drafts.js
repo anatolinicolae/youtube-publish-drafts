@@ -239,7 +239,7 @@
             const visibility = await draft.goToVisibility();
             await visibility.setVisibility();
             const dialog = await visibility.save();
-            await dialog.close();
+            // await dialog.close();
             await sleep(100);
         }
     }
